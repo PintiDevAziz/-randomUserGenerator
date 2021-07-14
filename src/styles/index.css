@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .usercard {
+        @apply h-80 border-2 rounded w-80 p-4
+    }
+}
